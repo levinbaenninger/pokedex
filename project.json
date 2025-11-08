@@ -72,6 +72,25 @@
         "lintFilePatterns": ["./src"]
       }
     },
+    "lint:fix": {
+      "executor": "@nx/eslint:lint",
+      "options": {
+        "lintFilePatterns": ["./src"],
+        "fix": true
+      }
+    },
+    "format": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "prettier --check ."
+      }
+    },
+    "format:fix": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "prettier --write ."
+      }
+    },
     "serve-static": {
       "continuous": true,
       "executor": "@nx/web:file-server",
