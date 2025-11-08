@@ -7,8 +7,8 @@
     "build": "nx build",
     "lint:check": "nx lint",
     "lint:fix": "nx lint --fix",
-    "format:check": "nx format:check",
-    "format:fix": "nx format:write",
+    "format:check": "nx format",
+    "format:fix": "nx format:fix",
     "prepare": "husky"
   },
   "private": true,
