@@ -72,6 +72,13 @@
         "lintFilePatterns": ["./src"]
       }
     },
+    "lint:fix": {
+      "executor": "@nx/eslint:lint",
+      "options": {
+        "lintFilePatterns": ["./src"],
+        "fix": true
+      }
+    },
     "format": {
       "executor": "nx:run-commands",
       "options": {

@@ -6,7 +6,7 @@
     "start": "nx serve",
     "build": "nx build",
     "lint:check": "nx lint",
-    "lint:fix": "nx lint --fix",
+    "lint:fix": "nx lint:fix",
     "format:check": "nx format",
     "format:fix": "nx format:fix",
     "prepare": "husky"
