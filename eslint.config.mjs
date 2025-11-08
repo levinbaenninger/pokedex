@@ -1,12 +1,11 @@
 import nx from '@nx/eslint-plugin';
+import gitignore from 'eslint-config-flat-gitignore';
 
 export default [
+  gitignore(),
   ...nx.configs['flat/base'],
   ...nx.configs['flat/typescript'],
   ...nx.configs['flat/javascript'],
-  {
-    ignores: ['**/dist'],
-  },
   {
     files: [
       '**/*.ts',
@@ -18,7 +17,6 @@ export default [
       '**/*.cjs',
       '**/*.mjs',
     ],
-    // Override or add rules here
     rules: {},
   },
   ...nx.configs['flat/angular'],
@@ -46,7 +44,6 @@ export default [
   },
   {
     files: ['**/*.html'],
-    // Override or add rules here
     rules: {},
   },
 ];
