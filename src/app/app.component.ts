@@ -5,10 +5,6 @@ import { ButtonModule } from 'primeng/button';
 @Component({
   imports: [ButtonModule, RouterModule],
   selector: 'app-root',
-  template: `
-    <div class="flex flex-col items-center justify-center h-screen">
-      <p-button label="Check" severity="primary" />
-    </div>
-  `,
+  template: ` <router-outlet /> `,
 })
 export class AppComponent {}
