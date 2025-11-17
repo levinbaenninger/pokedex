@@ -42,7 +42,7 @@
     "@nx/angular": "22.0.2",
     "@nx/eslint": "22.0.2",
     "@nx/eslint-plugin": "22.0.2",
-    "@nx/js": "22.0.2",
+    "@nx/js": "22.0.3",
     "@nx/web": "22.0.2",
     "@nx/workspace": "22.0.2",
     "@schematics/angular": "~20.3.0",
