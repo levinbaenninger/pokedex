@@ -34,7 +34,7 @@
     "@angular/build": "~20.3.0",
     "@angular/cli": "~20.3.0",
     "@angular/compiler-cli": "~20.3.0",
-    "@angular/language-service": "~20.3.0",
+    "@angular/language-service": "~20.3.12",
     "@commitlint/cli": "^20.1.0",
     "@commitlint/config-conventional": "^20.0.0",
     "@commitlint/types": "^20.0.0",
